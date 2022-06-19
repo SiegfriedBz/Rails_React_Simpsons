@@ -14,8 +14,10 @@
 
   <body>
 
+    <%= yield %>
+
     <%= javascript_pack_tag 'application' %>
 
-    <%= yield %>
+    <%= render 'shared/footer' %>
   </body>
 </html>
