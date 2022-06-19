@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar from './components/NavBar';
 import Gif from './components/Gif';
 import GifList from './components/GifList';
+import CreateGif from './components/CreateGif';
 import { v4 as uuidv4 } from 'uuid';
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
             <GifList gifs={gifs} setSelectedGifId={setSelectedGifId}/>
           </div>
         </div>
+        <CreateGif gifs={gifs} setGifs={setGifs} />
       </div>
     </div>
   );
