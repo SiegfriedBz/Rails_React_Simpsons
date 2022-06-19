@@ -1,6 +1,6 @@
 require "test_helper"
 
-class GifControllerTest < ActionDispatch::IntegrationTest
+class Api::V1::GifsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

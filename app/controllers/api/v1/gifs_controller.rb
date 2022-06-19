@@ -1,4 +1,4 @@
-class GifController < ApplicationController
+class Api::V1::GifsController < ApplicationController
   before_action :select_gif, only: [:show, :edit, :update, :destroy]
 
   def index
