@@ -16,6 +16,9 @@ initGifs = [
 {title: 'Gatsby', url: 'https://media.giphy.com/media/ZJh42VKmeQ2yY/giphy.gif'},
 {title: '66', url: 'https://media.giphy.com/media/f1Gpa9nYrXLfa/giphy.gif'},
 {title: 'RedBaron', url: 'https://media.giphy.com/media/13z07NNZofZ78I/giphy.gif'},
+{title: 'Brave', url: 'https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif'},
+{title: 'Feydeau', url: 'https://media.giphy.com/media/qhqwBvxNoQSUo/giphy.gif'},
+{title: 'Cryptonite', url: 'https://media.giphy.com/media/qhqwBvxNoQSUo/giphy.gif'},
 ]
 
 puts "Seeding database..."

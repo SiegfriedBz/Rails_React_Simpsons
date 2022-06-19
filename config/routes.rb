@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # API
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
-      resources :gifs, only: [ :index, :show, :create, :update, :destroy]
+      resources :gifs, only: [ :index, :show, :create ]
     end
   end
 
