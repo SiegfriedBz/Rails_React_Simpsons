@@ -13,8 +13,9 @@ const Gif = (props) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-
   return (
+    <>
+      {gif &&
       <>
         <div className="card my-card">
           <div className="d-flex flex-column justify-content-end">
@@ -32,15 +33,16 @@ const Gif = (props) => {
             </div>
           </div>
         </div>
-
         <InfoModal
           size="lg"
           gif={gif}
           handleClose={handleClose}
-          show={show}/>
+          show={show}
+        />
       </>
+      }
+    </>
    )
-
 }
 
 export default Gif
