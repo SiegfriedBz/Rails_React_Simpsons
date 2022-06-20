@@ -21,7 +21,7 @@ const CreateGif = ({gifs, setGifs}) => {
           placeholder="Enter title"
           value={newGif.title}
           onChange={(e) => setNewGif({...newGif, title: e.target.value})}
-          />
+        />
         <label htmlFor="gif-url">URL</label>
         <input
           type="text"
@@ -30,7 +30,7 @@ const CreateGif = ({gifs, setGifs}) => {
           placeholder="Enter URL"
           value={newGif.url}
           onChange={(e) => setNewGif({...newGif, url: e.target.value})}
-          />
+        />
       <button type="submit" className="btn btn-primary">Create</button>
     </form>
   )
